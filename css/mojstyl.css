@@ -1,0 +1,155 @@
+.ramka
+{
+    border: 1px solid red;
+}
+h1.logo{
+    font-size: 44px;
+    font-weight: 700;
+    color: #ddd;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+}
+h1.a
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ddd;
+    letter-spacing: 5;
+    margin-top: 25px;
+}
+.about
+{
+    margin-top: 30px;
+}
+.karuzela
+{
+    margin-top: 30px;
+}
+img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#mainmenu{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f6ffdf;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+#mainmenu ul{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.cmxform fieldset
+{
+    width: 50em;
+    background-color: #939393;
+    text-decoration-color: #0a0a0a;
+}
+#animal1
+{
+    max-width: 20%;
+    max-height: 20%;
+    margin: 10px;
+    float: right;
+}
+body {
+
+    width: 100%;
+    margin: 0;
+    background-color: #333;
+    color: #eeffee;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+
+.socials {
+    width: 100%;
+    text-align: center;
+    background-color: #191d21;
+    color: white;
+}
+
+.socialdivs {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fb {
+    width: 250px;
+    height: 155px;
+    float: left;
+}
+
+.fb:hover {
+    background-color: #4668b3;
+}
+
+.yt {
+    width: 250px;
+    height: 155px;
+    float: left;
+}
+
+.yt:hover {
+    background-color: #d94348;
+}
+
+.tw {
+    width: 250px;
+    height: 155px;
+    float: left;
+}
+
+.tw:hover {
+    background-color: #3095d3;
+}
+
+.gplus {
+    width: 250px;
+    height: 155px;
+    float: left;
+}
+
+.gplus:hover {
+    background-color: #d95333;
+}
+
+a.sociallink {
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav-item
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: #e2e3e5 1px;
+    font-weight: 600;
+}
+
+form  input
+{
+    background-color: #1b4a45;
+
+}
+form  select{
+    background-color: #1b4a45;
+
+}
+form option{
+    background-color: #1b4a45;
+}

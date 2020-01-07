@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/mojstyl.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="js/fancybox/source/jquery.fancybox.css" type="text/css" media="screen">
+    <script type="text/javascript " src="js/fancybox/source/jquery.fancybox.pack.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a").click(function () {
+                var url = $(this);
+                alert(" url=" + url.attr("href"));
+                $("#wynik").fadeOut("slow", function () {
+                    $("#wynik").load(url.attr("href"), function () {
+                        $("#wynik").fadeIn("8000")
+                    });
+                });
+                return false;
+            });
+        });
+
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+    </script>
+    <script type="text/javascript" >
+
+        $(document).ready(function(){
+            $('.animals  a img ').animate({
+                opacity:.7
+            });
+            $('.animals a img').hover(function () {
+                $(this).stop().animate({opacity:1},50);
+            }, function () {
+                $(this).stop().animate({opacity:.7}, 300);
+            });
+
+        });
+    </script>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+<div class="row ">
+    <div class="container-fluid">
+        <div class=" badge-dark col-12"
+        ">
+        <section class="animals">
+            <div class="container">
+                <div id="wynik">
+                    <header>
+                        <h1 class="text-md-center">Świat Kręgowców</h1>
+                        <p>Witaj!Na tej stronie postaram się przedstawić tobie jak najwięcej informacji
+                            na temat zwierząt.Wezmę pod uwagę szeroko rozumianą podgrupę Królestwa zwoerząt
+                            czyli Kręgowce. Pozdrawiam i życzę miłej lektury,<br> Źródło obrazów na stronie:
+                            www.pixabay.c
+                    </header>
+                    <div class="row align-content-center">
+                        <div class="col-sm-6 ">
+                            <figure>
+                                <a href="ssaki.html" data-toggle="tooltip" data-placement="top" title="Ssaki"><img
+                                        src="img/mammal-Original.JPG"
+                                        class="img-responsive form-control-file img-thumbnail" alt=""
+                                        ssaki></a>
+                                <figcaption>Ssaki</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <figure>
+                                <a href="ptaki.html" data-toggle="tooltip" data-placement="top" title="Ptaki"><img
+                                        src="img/bird-Original.JPG"
+                                        class="img-responsive form-control-file img-thumbnail" alt=""
+                                        ptaki></a>
+                                <figcaption>Ptaki</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <figure>
+                                <a href="gady.html" data-toggle="tooltip" data-placement="top" title="Gady"><img
+                                        src="img/reptile-Original.jpg"
+                                        class="img-responsive form-control-file img-thumbnail" alt=""
+                                        gady></a>
+                                <figcaption>Gady</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <figure>
+                                <a href="ryby.html" data-toggle="tooltip" data-placement="top" title="Ryby"><img
+                                        src="img/fish-Original.JPG"
+                                        class="img-responsive form-control-file img-thumbnail" alt=""
+                                        ryby></a>
+                                <figcaption>Ryby</figcaption>
+                            </figure>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <figure>
+                                <a href="plazy.html" data-toggle="tooltip" data-placement="top" title="Płazy"><img
+                                        src="img/amphibian-Original.jpg"
+                                        class="img-responsive form-control-file img-thumbnail"></a>
+                                <figcaption>Płazy</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+        </section>
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
